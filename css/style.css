@@ -1,0 +1,246 @@
+﻿body { 
+	background-color: transparent;
+	padding: 30px;
+	
+}
+.full {
+     background: url('../images/library1.jpg') no-repeat center center fixed;
+     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+}
+
+/************************************* Login page styling ***************************************/
+
+.login-form { 
+    position:absolute;
+    top:30px;
+       
+}
+.login-image˙{
+    position:relative;
+}
+.login-main-page{
+    padding:10px 0 10px 0;
+}
+
+
+.panel-login {
+	background-color:transparent;
+}
+.panel-login>.panel-heading {
+	
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #029f5b;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	background-color:#ffebcc;
+    color:black;
+    border-radius:25px;
+    height: 35px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+}@media (max-width: 294px) {
+        .login-form{
+            padding-left: 15px;
+            top:10px;
+   }      
+}
+ 
+@media (max-width: 576px) {
+  /* xs screen login */
+   .panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	    height: 25px;
+	    font-size: 13px;
+    }
+   .btn-login {
+	    font-size: 13px;
+	    height: 25px;
+	    padding: 0 0;
+    }
+   .btn-register {
+	    font-size: 13px;
+	    height: 25px;
+	    padding: 0 0;
+    }
+   .login-form{
+            padding-left: 25px;
+             
+   }     
+   
+ 
+}
+
+@media (max-width: 768px) {
+  /* sm screen login*/
+
+}
+@media (max-width: 992px) {
+  /* ms screen login*/
+
+}
+@media (max-width: 1200px) {
+  /* lg screen login*/
+
+}
+
+/************************************* Navbar styling ***************************************/
+.navstyle{
+	background-color:#ff944d;
+	opacity: 0.8;
+	
+	
+}
+.navstyle > ul{
+	
+	margin-right:0px;
+	margin-top:5px;
+}
+
+.navbutton{
+	background-color: #F94B1F;
+	border: none;
+	color: #000000;
+	height: 45px;
+	margin-right:2px;
+}
+.navbutton:hover{
+	background-color: #FA491C;
+	
+}
+.settings{
+	margin-right: 20px;
+	background-color: #F94B1F;
+	color: #000000;
+}
+#settings{
+	margin-right: 20px;
+	background-color: #F94B1F;
+	color: #000000;
+}
+.navopen{
+	background-color: #F94B1F;
+	color: #000000;
+}
+.logo{
+	margin-left:50px;
+}
+@media (max-width: 767px) {
+	/* sm screen login*/
+	.logo{
+		margin-left:0px;
+	}
+	.navstyle > ul{
+		padding: 2px;
+		margin-right:0px;
+	
+	}
+	.navbutton{
+		width:100%;
+		margin-bottom: 2px;
+	}
+	
+  }
+/************************************* Content styling ***************************************/
+.content-main{
+	height:100%;
+	margin-top:30px;
+}
+.content-middle{
+	height:650px;
+	background-color:#ff944d;
+	opacity: 0.8;
+}
+.content-left{
+	height:650px;
+	background-color:#ff944d;
+	opacity: 0.8;
+	margin-right:10px;
+	margin-bottom: 5px;
+}
+.content-right{
+	height:650px;
+	background-color:#ff944d;
+	opacity: 0.8;
+	margin-left:10px;
+}
